@@ -1,18 +1,18 @@
 #include <iostream>
-#include <cmath>
+
+void happyBirthday(std::string name);
 
 int main()
 {
-    using std::cin;
-    using std::cout;
-
-    srand(time(NULL));
-
-    for (int i = 0; i < 3; i++)
-    {
-        int num = rand() % 6 + 1;
-        cout << num << "\n";
-    }
+    std::string name = "Teddy";
+    happyBirthday(name);
 
     return 0;
+}
+
+void happyBirthday(std::string name){
+    std::cout << "Happy birthday to you!\n";
+    std::cout << "Happy birthday to you!\n";
+    std::cout << "Happy birthday dear " << name << "...\n";
+    std::cout << "Happy birthday to you!\n";
 }

@@ -102,3 +102,14 @@ time(NULL) - gets the current time
 
 srand(time(NULL)) - often used to generate a random seed from current time
 rand() % int - used to generate random number from 0 up to int, use +1 to include int
+
+# Functions
+  
+function names must have the returning data type before it
+ex: `int` functionName(){}, `boolean` functionName(){}
+
+using `void` before a function - does not return a data type
+ex: `void` functionName(){}
+
+parameters to be used in a function must be declared with data type
+ex: `int` addNums(`int` num1, `int` num2){}
